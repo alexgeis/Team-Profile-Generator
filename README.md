@@ -56,4 +56,4 @@ Repo: [Team Profile Generator](https://github.com/alexgeis/Team-Profile-Generato
 
 Walkthrough Video: [Team Profile Generator Video](https://drive.google.com/file/d/1Ao60mJxqBKMgWG_2F1oszoYDCJvpQAag/view)
 
-Sample HTML File: [Team Profile HTML - example]()
+Sample HTML File: [Team Profile HTML - example](https://github.com/alexgeis/Team-Profile-Generator/blob/main/dist/output.html)

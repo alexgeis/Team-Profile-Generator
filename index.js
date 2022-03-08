@@ -41,15 +41,15 @@ const employeePrompt = [
   },
   {
     //callback function can access previous answers in prompt
-    message: (answers) => `What is the name of the ${answers.role}`,
+    message: (answers) => `${answers.role} name:`,
     name: "name",
   },
   {
-    message: (answers) => `What is the id of the ${answers.role}`,
+    message: (answers) => `${answers.role} ID:`,
     name: "id",
   },
   {
-    message: (answers) => `What is the email of the ${answers.role}`,
+    message: (answers) => `${answers.role} email:`,
     name: "email",
   },
   {
@@ -68,11 +68,11 @@ function addEmployee() {
       message: "What do you want to do?",
       type: "list",
       name: "choice",
-      choices: ["add employee", "create roster"],
+      choices: ["Add employee", "Create roster"],
     })
     .then((data) => {
       console.log("YOUR Choice --- ", data.choice);
-      if (data.choice === "add employee") {
+      if (data.choice === "Add employee") {
         inquirer.prompt(employeePrompt).then((data) => {
           console.log("answers for employee --- ", data);
           if (data.role === "Engineer") {
@@ -89,7 +89,7 @@ function addEmployee() {
           }
 
           console.log(`${data.role} added to Team!`);
-          setTimeout(addEmployee, 1500);
+          setTimeout(addEmployee, 2000);
         });
       } else {
         createHTML();

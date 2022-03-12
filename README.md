@@ -40,15 +40,7 @@ THEN I exit the application, and the HTML is generated
 
 ## Description
 
-To begin this project we evaluated available APIs and decided to build an application that was not only aware of a user's emotional state, but tailored incoming API information to match this state. Each team member separately tested the viability of certain APIs, and after bringing ideas together in discussion we were able to priortize our MVP features.
-
-Visuals, relevant quotes, and a media player were decided to be included in the MVP mood-tailored experience, and on top of this we added a chart to track the history of the user's moods. Our team found success in having each team member be responsible for a certain feature, with constant communication to solve any merge conflicts or design considerations.
-
-Regarding APIs, we used Pexels for our images, YouTube for our media player, and FavQuotes for our quote API. Chart JS was used to populate/design the mood history and Moment.js was used to determine when the user was accessing the application.
-
-Once the user selects a mood button the information is captured in local storage, which we used to populate our API fetches and the chart of mood history.
-
-Finally, we applied a modern, responsive design to the website and arranged the elements onscreen into a polished UI.
+To begin this process I constructed the designs for individal cards in the HTML/CSS. After the format was looking good, I moved to the javascript to request the proper info from the user to populate this HTML page. After establishing the flow trees for user decisions, I connected the loose ends and used the user input to dynamically update the HTML file being produced.
 
 ## Deployment Details
 
